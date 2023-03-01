@@ -1,0 +1,113 @@
+.mainView {
+    display: flex;
+    padding: 0 10vw 0 10vw;
+}
+
+/*主体左边布局大小*/
+.mainLeft {
+    width: 60vw;
+}
+
+/*轮播图*/
+.el-image {
+    height: 100%;
+    width: 100%;
+}
+
+/*轮播图大小*/
+.carousel {
+    height: 400px;
+}
+
+.carouselItem {
+    height: 400px;
+}
+
+.el-carousel__container {
+    position: relative;
+    height: 400px;
+}
+
+/*贴吧标题*/
+.postTitle {
+    margin-left: -8px;
+    margin-top: -15px;
+}
+
+/*贴吧内容宽度*/
+.postContent {
+    width: 600px;
+}
+
+/*贴吧内容图片*/
+.contentImage {
+    display: flex;
+    margin-top: 10px;
+}
+
+/*贴吧图片大小布局*/
+.contentImage img {
+    margin-right: 10px;
+    width: 200px;
+    height: 100px;
+}
+
+.userInfoOut {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #8c939d;
+}
+
+.nickNameOut {
+    display: flex;
+    align-items: center;
+
+}
+
+.nickNameClass {
+    margin-right: 18px;
+}
+
+.mainRight {
+    width: 20vw;
+    margin-left: 10px;
+}
+
+.noticeContent {
+    margin-bottom: 10px;
+}
+
+/*热门贴吧标题*/
+
+.noticeTitle {
+    text-align: center;
+    font-weight: 600;
+}
+.postBarImage {
+    width: 50px;
+    height: 50px;
+}
+
+.postBarOut {
+    display: flex;
+    margin-right: 14px;
+}
+.postBarInfo{
+    margin-left: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.postBarUserInfo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 13px;
+    color: #8c939d;
+}
+.postBarOutParent{
+    display: flex;
+    flex-wrap: wrap;
+}
